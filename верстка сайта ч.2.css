@@ -1,0 +1,55 @@
+*{
+    margin:0;
+    padding:0;
+}
+header{
+    background-color: grey;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+}
+header div a{
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+}
+header div a:hover{
+    font-size: 22px;
+    color: wheat;
+}
+header div{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#about{
+    width: 100%;
+    height: 500px;
+    background-color: coral;
+}
+#info{
+    width: 100%;
+    height: 500px;
+    background-color: coral;
+}
+.raz{
+    width: 98%;
+    background-color: white;
+    margin: auto;
+    padding: 10px;
+    height: 480px;
+}
+footer{
+    background-color: slategray;
+    width: 100%;
+    height: 300px;
+}
+.footer{
+    width: 98%;
+    height: 290px;
+    background-color: antiquewhite;
+    margin: auto;
+    border-radius: 25px;
+}

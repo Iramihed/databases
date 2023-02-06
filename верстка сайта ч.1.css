@@ -1,0 +1,37 @@
+.header{
+       width: 1500px;
+       height: 50px;
+       border: 2px;
+       display: flex;
+}
+.header div{
+       border:2px; ;
+       width: 20%;
+}
+.search{
+        border: 1px solid #ccc;
+        display:inline-block;
+.span{
+      height: 40px;
+      width: 40px;
+      position: relative;
+}
+body{
+     background: #344d46;
+}
+.box{
+     margin: 100px auto;
+     width: 300px;
+     height: 50px;
+}
+.container-1 input#search:-ms-input-placeholder {
+      color: #65737e
+}
+.container-1 .icon{
+    position: absolute;
+    toh: 50%;
+    margin-left: 17px;
+    margin-top: 17px;
+    z-index: 1;
+    color: #4f5b66;
+}
